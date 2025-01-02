@@ -66,6 +66,7 @@ else
 fi
 
     docker compose run node sh -c "printenv"
+    docker compose run node sh -c "yarn serve"
 
 }
 
